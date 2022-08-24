@@ -35,6 +35,7 @@ JOIN airports AS a_d ON f.departure_airport = a_d.airport_code
 JOIN airports AS a_a ON f.arrival_airport = a_a.airport_code
 WHERE a_d.timezone = a_a.timezone
 """
+
 #  count
 # --------
 #  16824
